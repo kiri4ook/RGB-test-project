@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"> </script>
+    <title>RGB test project</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo_wrapper">
+                <div class="logo_wrapper_img">
+                    <img class="logo_img" src="images/logo_img.png" alt="">
+                </div>
+                <div class="logo_name">
+                    <div class="logo_name_powercode">POWERCODE</div>
+                    <div class="logo_name_academy">ACADEMY</div>
+                </div>
+            </div>
+            <div class="date_time_buttons_wrapper">
+                <div class="date_time_button">
+                    <div class="date_button_icon"></div>
+                    <div class="date_button_day">28 декабря</div>
+                </div>
+                <div class="date_time_button">
+                    <div class="time_button_icon"></div>
+                    <div class="time_button_time">3,5 часа</div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="info_wrapper">
+                <div class="info_about">
+                    <div class="info_about_vebinar">
+                        <img class="info_about_vebinar_img" src="images/globus.png" alt="">
+                        <p class="info_about_vebinar_text">Вебинар</p>
+                    </div>
+                    <div class="info_about_frontend">
+                        <p class="info_about_frontend_text">front-end</p>
+                    </div>
+                    <div class="info_about_start">
+                        <div class="info_about_start_zero">
+                            <div class="info_about_start_zero_text">с нуля</div>
+                        </div>
+                        <div class="info_about_start_text">легкий старт в IT профессии</div>
+                    </div>
+                    <div class="info_about_learn">
+                        <div class="info_about_learn_text">Узнайте какими <b>навыками должен обладать фронтенд
+                                разработчик
+                                в 2022</b> году и как начать карьеру в востребованной профессии с зарплатой
+                            <div class="info_about_learn_text_salary"> от 1000$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_feedback">
+                    <div class="info_feedback_user">
+                        <div class="info_feedback_user_icon">
+                            <img src="images/user_icon.png" alt="">
+                        </div>
+                        <div class="info_feedback_user_about">
+                            <div class="info_feedback_user_about_name">Кирилл <span
+                                    class="info_feedback_user_about_surname">КАСАТОНОВ</span>
+                            </div>
+                            <div class="info_feedback_user_about_info">6 лет коммерческого опыта с такими компаниями как
+                                Mercedes-Benz и другими крупными корпорациями</div>
+                        </div>
+                    </div>
+                    <div class="info_feedback_bonus">
+                        <div class="info_feedback_bonus_icon">
+                            <img class="info_feedback_bonus_icon_img" src="images/gift.png" alt="">
+                        </div>
+                        <div class="info_feedback_bonus_about">
+                            <div class="info_feedback_bonus_about_name">Бонус за регистрацию</div>
+                            <div class="info_feedback_bonus_about_info">PDF-файл "5 преимуществ <br> профессии фронтенд
+                                разработчика"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <form action="#" id="form">
+                    <div class="form_header">
+                        <p class="form_header_text">Запишитесь <span class="form_header_text_free">бесплатно</span>
+                            и получите подарок</p>
+                    </div>
+                    <div class="form_name">
+                        <input id="name" type="text" name="name" class="form_input form_name_input _req"
+                            placeholder="Ваше имя и фамилия" required>
+                    </div>
+                    <div class="form_number">
+                        <select class="form_number_select" id="country" name="country">
+                            <option value="+380">UA +380</option>
+                            <option value="+1">US +1</option>
+                            <option value="+7">RU +7</option>
+                            <option value="+48">PL +48</option>
+                            <option value="+34">SP +34</option>
+                        </select>
+                        <input id="phone" type="number" name="phone" class="form_input form_number_input _req"
+                            placeholder="Ваш номер телефона" required>
+                    </div>
+                    <div class="form_email">
+                        <input id="email" type="email" name="email" class="form_input form_email_input _req _email"
+                            placeholder="Ваш email" required>
+                    </div>
+                    <div class="form_submit">
+                        <button class="form_submit_button">Записаться бесплатно</button>
+                    </div>
+                </form>
+                <div class="form_confidence">
+                    <p class="form_confidence_text">Нажимая на кнопку я согашаюсь <br>
+                        <span class="form_confidence_text_underline">с политикой конфидециальности</span>
+                    </p>
+                </div>
+            </div>
+            <div class="info_feedback_mobile">
+                <div class="info_feedback_mobile_user">
+                    <div class="info_feedback_mobile_user_icon">
+                        <img src="images/user_icon.png" alt="">
+                    </div>
+                    <div class="info_feedback_mobile_user_about">
+                        <div class="info_feedback_mobile_user_about_name">Кирилл <span
+                                class="info_feedback_mobile_user_about_surname">КАСАТОНОВ</span>
+                        </div>
+                        <div class="info_feedback_mobile_user_about_info">6 лет коммерческого опыта с такими компаниями
+                            как
+                            Mercedes-Benz и другими крупными корпорациями</div>
+                    </div>
+                </div>
+                <div class="info_feedback_mobile_bonus">
+                    <div class="info_feedback_mobile_bonus_icon">
+                        <img class="info_feedback_mobile_bonus_icon_img" src="images/gift.png" alt="">
+                    </div>
+                    <div class="info_feedback_mobile_bonus_about">
+                        <div class="info_feedback_mobile_bonus_about_name">Бонус за регистрацию</div>
+                        <div class="info_feedback_mobile_bonus_about_info">PDF-файл "5 преимуществ <br> профессии
+                            фронтенд
+                            разработчика"
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="big_ellips1"></div>
+    <div class="big_ellips2"></div>
+    <img class="picture_HTML5" src="images/picture1.png" alt="">
+    <img class="picture_CSS" src="images/picture2.png" alt="">
+    <img class="picture_JS" src="images/picture3.png" alt="">
+    <img class="picture_Sublime" src="images/picture4.png" alt="">
+    <img class="picture_Visual" src="images/picture5.png" alt="">
+    <img class="ellips_HTML5" src="images/ellips1.png" alt="">
+    <img class="ellips_CSS" src="images/ellips2.png" alt="">
+    <img class="ellips_JS" src="images/ellips3.png" alt="">
+    <img class="ellips_Sublime" src="images/ellips4.png" alt="">
+    <img class="ellips_Visual" src="images/ellips5.png" alt="">
+    <img class="fd_picture" src="images/front-end developer.png" alt="">
+    <script src="script.js"></script>
+</body>
+
+</html>
